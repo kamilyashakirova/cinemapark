@@ -38,6 +38,7 @@ namespace cinemapark
             DisableButton();
             leftBorderBtn.Visible = false;
             titlelabel.Text = "Главная";
+            childform?.Close();
         }
         private void mainlogo_Click(object sender, EventArgs e)
         {
