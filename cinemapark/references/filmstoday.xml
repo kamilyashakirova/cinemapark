@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<filmstoday>
+	<filmstoday>
+		<ID>0</ID>
+		<name>Блондинка в законе(2001)</name>
+		<actors>Риз Уизерспун, Люк Уилсон, Сэльма Блэр и т.д.</actors>
+		<rating>6,8</rating>
+	</filmstoday>
+	<filmstoday>
+		<ID>1</ID>
+		<name>Как стать принцессой(2001)</name>
+		<actors>Энн Хэтэуэй, Джули Эндрюс, Гектор Элизондо и т.д.</actors>
+		<rating>7,1</rating>
+	</filmstoday>
+	<filmstoday>
+		<ID>2</ID>
+		<name>Ангелы Чарли(2000)</name>
+		<actors>Кэмерон Диас, Дрю Бэрримор, Люси Лью и т.д.</actors>
+		<rating>6,6</rating>
+	</filmstoday>
+	<filmstoday>
+		<ID>3</ID>
+		<name>Отпуск по обмену(2006)</name>
+		<actors>Кэмерон Диас, Кейт Уинслет, Джуд Лоу, Джек Блэк и т.д</actors>
+		<rating>7,9</rating>
+	</filmstoday>
+</filmstoday>
+
