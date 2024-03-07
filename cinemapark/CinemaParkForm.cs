@@ -72,5 +72,10 @@ namespace cinemapark
         {
             Application.Exit();
         }
+        private void menupanel_Click(object sender, EventArgs e)
+        {
+            reset();
+            childform?.Close();
+        }
     }
 }
