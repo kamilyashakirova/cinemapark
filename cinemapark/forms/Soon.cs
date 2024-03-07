@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Newtonsoft.Json.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
@@ -77,16 +77,16 @@ namespace cinemapark.forms
             if (e.RowIndex >= 0 && e.RowIndex < soonGridView1.Rows.Count)
             {
                 soonGridView1.Visible = false;
-                infolabel.Visible = true;
-                IDlabel.Visible = true;
-                todaynamelabel.Visible = true;
-                actorslabel.Visible = true;
+                soonInfolabel.Visible = true;
+                soonIDlabel.Visible = true;
+                namelabel.Visible = true;
+                actorslabel1.Visible = true;
                 datelabel.Visible = true;
                 idtext.Visible = true;
                 nametext.Visible = true;
                 actorstext.Visible = true;
                 premiertext.Visible = true;
-                okbtn.Visible = true;
+                soonOKbtn.Visible = true;
                 DataGridViewRow selrow = soonGridView1.Rows[e.RowIndex];
                 string seltitle = selrow.Cells["FilmName"].Value.ToString();
                 DisplaySoonSingleInfo(seltitle);
